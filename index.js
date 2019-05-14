@@ -35,7 +35,7 @@ async function checkTickets() {
     sendEmail('nikolas.burk@gmail.com', result)
   } else {
     logMessage(`No tickets at the moment`)
-    sendEmail('nikolas.burk@gmail.com', 0)
+    // sendEmail('nikolas.burk@gmail.com', 0)
   }
 
 }
